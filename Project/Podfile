@@ -1,4 +1,4 @@
-pod "json-ld-objcpod", :path => "../"
+pod "json-ld-objc", :path => "../"
 
 target "Demo" do
 end
