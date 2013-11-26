@@ -1,9 +1,3 @@
-#
-# Be sure to run `pod spec lint NAME.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about the attributes see http://docs.cocoapods.org/specification.html
-#
 Pod::Spec.new do |s|
   s.name         = "json-ld-objc"
   s.version      = "0.0.1"
@@ -14,11 +8,11 @@ Pod::Spec.new do |s|
                     * Markdown format.
                     * Don't worry about the indent, we strip it!
                    DESC
-  s.homepage     = "http://EXAMPLE/NAME"
+  s.homepage     = "http://march44.github.io/json-ld-objc"
   s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license      = 'BSD'
   s.author       = { "andrew.reslan" => "andrew.reslan@mac.com" }
-  s.source       = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/march44/json-ld-objc.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '5.0'
   s.ios.deployment_target = '5.0'
