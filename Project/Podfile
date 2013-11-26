@@ -1,0 +1,7 @@
+pod "json-ld-objcpod", :path => "../"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
