@@ -6,23 +6,23 @@
 #
 Pod::Spec.new do |s|
   s.name         = "json-ld-objc"
-  s.version      = "0.1.0"
-  s.summary      = "A short description of json-ld-objc."
+  s.version      = "0.0.1"
+  s.summary      = "A port of the JSON-LD API to objective-c."
   s.description  = <<-DESC
-                    An optional longer description of json-ld-objc
+                    A port of the JSON-LD API to objective-c for use on OSX and iOS
 
                     * Markdown format.
                     * Don't worry about the indent, we strip it!
                    DESC
   s.homepage     = "http://EXAMPLE/NAME"
   s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license      = 'MIT'
+  s.license      = 'BSD'
   s.author       = { "andrew.reslan" => "andrew.reslan@mac.com" }
   s.source       = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
 
-  # s.platform     = :ios, '5.0'
-  # s.ios.deployment_target = '5.0'
-  # s.osx.deployment_target = '10.7'
+  s.platform     = :ios, '5.0'
+  s.ios.deployment_target = '5.0'
+  s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
   s.source_files = 'Classes'
